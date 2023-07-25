@@ -83,7 +83,10 @@ function suaSinhVien(indexEdit) {
   document.querySelector("#loaiSinhVien").value = svEdit.loaiSinhVien;
   document.querySelector("#diemRenLuyen").value = svEdit.diemRenLuyen;
 }
-
+/**
+ * Những giá trị mà localstorage có thể lưu: number , string, boolean, null, undefined(primtive value)
+ * Object {} (non primitive)
+ */
 //Phương thức lưu vào application storage
 function saveStorageArrSinhVien() {
   //Chuyển arr về chuỗi
